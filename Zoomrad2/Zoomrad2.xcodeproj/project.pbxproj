@@ -1,0 +1,544 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF26E0452C36EACC0038936A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF26E0442C36EACC0038936A /* AppDelegate.swift */; };
+		EF26E0492C36EACC0038936A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF26E0482C36EACC0038936A /* ViewController.swift */; };
+		EF26E04E2C36EACC0038936A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF26E04D2C36EACC0038936A /* Assets.xcassets */; };
+		EF26E0512C36EACC0038936A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF26E04F2C36EACC0038936A /* LaunchScreen.storyboard */; };
+		EF26E05A2C36ED4F0038936A /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF26E0592C36ED4F0038936A /* SignInVC.swift */; };
+		EF26E05C2C36EDDF0038936A /* VerifyCodeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF26E05B2C36EDDF0038936A /* VerifyCodeVC.swift */; };
+		EF26E05E2C36EE0E0038936A /* UserInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF26E05D2C36EE0E0038936A /* UserInfoVC.swift */; };
+		EF26E0612C36EE6F0038936A /* TabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF26E0602C36EE6F0038936A /* TabBarVC.swift */; };
+		EF26E0632C36EE8E0038936A /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF26E0622C36EE8E0038936A /* HomeVC.swift */; };
+		EF26E0652C36EEF40038936A /* PaymentsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF26E0642C36EEF40038936A /* PaymentsVC.swift */; };
+		EF26E0672C36EF290038936A /* TransferMoneyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF26E0662C36EF290038936A /* TransferMoneyVC.swift */; };
+		EF26E0692C36EF420038936A /* HelpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF26E0682C36EF420038936A /* HelpVC.swift */; };
+		EF26E06B2C36EF8A0038936A /* MoreServicesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF26E06A2C36EF8A0038936A /* MoreServicesVC.swift */; };
+		EFF101702C37B936005520F7 /* HomeCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF1016F2C37B936005520F7 /* HomeCardView.swift */; };
+		EFF101732C37BA2F005520F7 /* HomeSectionZeroCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF101722C37BA2F005520F7 /* HomeSectionZeroCell.swift */; };
+		EFF101752C37BA50005520F7 /* HomeSectionFirstCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF101742C37BA50005520F7 /* HomeSectionFirstCell.swift */; };
+		EFF101772C37BA72005520F7 /* HomeSectionSecondCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF101762C37BA71005520F7 /* HomeSectionSecondCell.swift */; };
+		EFF101792C37BA91005520F7 /* HomeSectionThirdCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF101782C37BA91005520F7 /* HomeSectionThirdCell.swift */; };
+		EFF1017C2C37BB54005520F7 /* UICollectionViewSectionExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF1017B2C37BB54005520F7 /* UICollectionViewSectionExtension.swift */; };
+		EFF1017F2C37BBD1005520F7 /* HomeViewTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF1017E2C37BBD1005520F7 /* HomeViewTypes.swift */; };
+		EFF101812C37BCAF005520F7 /* HomeMyHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF101802C37BCAF005520F7 /* HomeMyHeaderView.swift */; };
+		EFF101832C37C74B005520F7 /* PaymentVCCollViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF101822C37C74B005520F7 /* PaymentVCCollViewCell.swift */; };
+		EFF101852C37C7AD005520F7 /* PaymentsVCTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF101842C37C7AD005520F7 /* PaymentsVCTypes.swift */; };
+		EFF101872C37CBFB005520F7 /* TransferVCCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF101862C37CBFB005520F7 /* TransferVCCustomView.swift */; };
+		EFF101892C37CC22005520F7 /* TransferVCCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF101882C37CC22005520F7 /* TransferVCCardView.swift */; };
+		EFF1018B2C37CC49005520F7 /* HelpVCButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF1018A2C37CC49005520F7 /* HelpVCButtonView.swift */; };
+		EFF1018D2C37CC77005520F7 /* MoreServicesCollCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF1018C2C37CC77005520F7 /* MoreServicesCollCell.swift */; };
+		EFF1018F2C37CCE5005520F7 /* MoreServicesTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF1018E2C37CCE5005520F7 /* MoreServicesTypes.swift */; };
+		EFF101922C37D0D8005520F7 /* MyCardsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF101912C37D0D8005520F7 /* MyCardsVC.swift */; };
+		EFF101942C37D131005520F7 /* CardsVCCardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF101932C37D131005520F7 /* CardsVCCardCell.swift */; };
+		EFF101962C37D15F005520F7 /* MyCardsVCAddButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF101952C37D15F005520F7 /* MyCardsVCAddButtonView.swift */; };
+		EFF101982C37D18B005520F7 /* AddCardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF101972C37D18B005520F7 /* AddCardVC.swift */; };
+		EFF1019A2C37D1DF005520F7 /* AddCardsVCTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF101992C37D1DF005520F7 /* AddCardsVCTypes.swift */; };
+		EFF1019C2C37D509005520F7 /* CashbackVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF1019B2C37D509005520F7 /* CashbackVC.swift */; };
+		EFF1019E2C37D52E005520F7 /* CashbackVCView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF1019D2C37D52E005520F7 /* CashbackVCView.swift */; };
+		EFF101A02C37D558005520F7 /* SegmentedCollectedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF1019F2C37D558005520F7 /* SegmentedCollectedView.swift */; };
+		EFF101A22C37D58A005520F7 /* SegmentedConCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF101A12C37D58A005520F7 /* SegmentedConCell.swift */; };
+		EFF101A42C37D5A7005520F7 /* SegmentedConUsedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF101A32C37D5A7005520F7 /* SegmentedConUsedView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EF26E0412C36EACC0038936A /* Zoomrad2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zoomrad2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF26E0442C36EACC0038936A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EF26E0482C36EACC0038936A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EF26E04D2C36EACC0038936A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF26E0502C36EACC0038936A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF26E0522C36EACC0038936A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF26E0592C36ED4F0038936A /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
+		EF26E05B2C36EDDF0038936A /* VerifyCodeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyCodeVC.swift; sourceTree = "<group>"; };
+		EF26E05D2C36EE0E0038936A /* UserInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoVC.swift; sourceTree = "<group>"; };
+		EF26E0602C36EE6F0038936A /* TabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarVC.swift; sourceTree = "<group>"; };
+		EF26E0622C36EE8E0038936A /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		EF26E0642C36EEF40038936A /* PaymentsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentsVC.swift; sourceTree = "<group>"; };
+		EF26E0662C36EF290038936A /* TransferMoneyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferMoneyVC.swift; sourceTree = "<group>"; };
+		EF26E0682C36EF420038936A /* HelpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpVC.swift; sourceTree = "<group>"; };
+		EF26E06A2C36EF8A0038936A /* MoreServicesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreServicesVC.swift; sourceTree = "<group>"; };
+		EFF1016F2C37B936005520F7 /* HomeCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCardView.swift; sourceTree = "<group>"; };
+		EFF101722C37BA2F005520F7 /* HomeSectionZeroCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSectionZeroCell.swift; sourceTree = "<group>"; };
+		EFF101742C37BA50005520F7 /* HomeSectionFirstCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSectionFirstCell.swift; sourceTree = "<group>"; };
+		EFF101762C37BA71005520F7 /* HomeSectionSecondCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSectionSecondCell.swift; sourceTree = "<group>"; };
+		EFF101782C37BA91005520F7 /* HomeSectionThirdCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSectionThirdCell.swift; sourceTree = "<group>"; };
+		EFF1017B2C37BB54005520F7 /* UICollectionViewSectionExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionViewSectionExtension.swift; sourceTree = "<group>"; };
+		EFF1017E2C37BBD1005520F7 /* HomeViewTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewTypes.swift; sourceTree = "<group>"; };
+		EFF101802C37BCAF005520F7 /* HomeMyHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeMyHeaderView.swift; sourceTree = "<group>"; };
+		EFF101822C37C74B005520F7 /* PaymentVCCollViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentVCCollViewCell.swift; sourceTree = "<group>"; };
+		EFF101842C37C7AD005520F7 /* PaymentsVCTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentsVCTypes.swift; sourceTree = "<group>"; };
+		EFF101862C37CBFB005520F7 /* TransferVCCustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferVCCustomView.swift; sourceTree = "<group>"; };
+		EFF101882C37CC22005520F7 /* TransferVCCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferVCCardView.swift; sourceTree = "<group>"; };
+		EFF1018A2C37CC49005520F7 /* HelpVCButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpVCButtonView.swift; sourceTree = "<group>"; };
+		EFF1018C2C37CC77005520F7 /* MoreServicesCollCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreServicesCollCell.swift; sourceTree = "<group>"; };
+		EFF1018E2C37CCE5005520F7 /* MoreServicesTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreServicesTypes.swift; sourceTree = "<group>"; };
+		EFF101912C37D0D8005520F7 /* MyCardsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCardsVC.swift; sourceTree = "<group>"; };
+		EFF101932C37D131005520F7 /* CardsVCCardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsVCCardCell.swift; sourceTree = "<group>"; };
+		EFF101952C37D15F005520F7 /* MyCardsVCAddButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCardsVCAddButtonView.swift; sourceTree = "<group>"; };
+		EFF101972C37D18B005520F7 /* AddCardVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCardVC.swift; sourceTree = "<group>"; };
+		EFF101992C37D1DF005520F7 /* AddCardsVCTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCardsVCTypes.swift; sourceTree = "<group>"; };
+		EFF1019B2C37D509005520F7 /* CashbackVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashbackVC.swift; sourceTree = "<group>"; };
+		EFF1019D2C37D52E005520F7 /* CashbackVCView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashbackVCView.swift; sourceTree = "<group>"; };
+		EFF1019F2C37D558005520F7 /* SegmentedCollectedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedCollectedView.swift; sourceTree = "<group>"; };
+		EFF101A12C37D58A005520F7 /* SegmentedConCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedConCell.swift; sourceTree = "<group>"; };
+		EFF101A32C37D5A7005520F7 /* SegmentedConUsedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedConUsedView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF26E03E2C36EACC0038936A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF26E0382C36EACB0038936A = {
+			isa = PBXGroup;
+			children = (
+				EF26E0432C36EACC0038936A /* Zoomrad2 */,
+				EF26E0422C36EACC0038936A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF26E0422C36EACC0038936A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF26E0412C36EACC0038936A /* Zoomrad2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF26E0432C36EACC0038936A /* Zoomrad2 */ = {
+			isa = PBXGroup;
+			children = (
+				EF26E0442C36EACC0038936A /* AppDelegate.swift */,
+				EF26E0582C36ECE90038936A /* Authorization */,
+				EF26E05F2C36EE340038936A /* Home */,
+				EFF101902C37CFCD005520F7 /* Necessaries */,
+				EF26E04D2C36EACC0038936A /* Assets.xcassets */,
+				EF26E04F2C36EACC0038936A /* LaunchScreen.storyboard */,
+				EF26E0522C36EACC0038936A /* Info.plist */,
+			);
+			path = Zoomrad2;
+			sourceTree = "<group>";
+		};
+		EF26E0582C36ECE90038936A /* Authorization */ = {
+			isa = PBXGroup;
+			children = (
+				EF26E0482C36EACC0038936A /* ViewController.swift */,
+				EF26E0592C36ED4F0038936A /* SignInVC.swift */,
+				EF26E05B2C36EDDF0038936A /* VerifyCodeVC.swift */,
+				EF26E05D2C36EE0E0038936A /* UserInfoVC.swift */,
+			);
+			path = Authorization;
+			sourceTree = "<group>";
+		};
+		EF26E05F2C36EE340038936A /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				EF26E0602C36EE6F0038936A /* TabBarVC.swift */,
+				EF26E0622C36EE8E0038936A /* HomeVC.swift */,
+				EF26E0642C36EEF40038936A /* PaymentsVC.swift */,
+				EF26E0662C36EF290038936A /* TransferMoneyVC.swift */,
+				EF26E0682C36EF420038936A /* HelpVC.swift */,
+				EF26E06A2C36EF8A0038936A /* MoreServicesVC.swift */,
+				EFF101912C37D0D8005520F7 /* MyCardsVC.swift */,
+				EFF101972C37D18B005520F7 /* AddCardVC.swift */,
+				EFF1019B2C37D509005520F7 /* CashbackVC.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		EFF1016E2C37B911005520F7 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				EFF1016F2C37B936005520F7 /* HomeCardView.swift */,
+				EFF101802C37BCAF005520F7 /* HomeMyHeaderView.swift */,
+				EFF101862C37CBFB005520F7 /* TransferVCCustomView.swift */,
+				EFF101882C37CC22005520F7 /* TransferVCCardView.swift */,
+				EFF1018A2C37CC49005520F7 /* HelpVCButtonView.swift */,
+				EFF101952C37D15F005520F7 /* MyCardsVCAddButtonView.swift */,
+				EFF1019D2C37D52E005520F7 /* CashbackVCView.swift */,
+				EFF1019F2C37D558005520F7 /* SegmentedCollectedView.swift */,
+				EFF101A32C37D5A7005520F7 /* SegmentedConUsedView.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		EFF101712C37BA0A005520F7 /* CustomCells */ = {
+			isa = PBXGroup;
+			children = (
+				EFF101722C37BA2F005520F7 /* HomeSectionZeroCell.swift */,
+				EFF101742C37BA50005520F7 /* HomeSectionFirstCell.swift */,
+				EFF101762C37BA71005520F7 /* HomeSectionSecondCell.swift */,
+				EFF101782C37BA91005520F7 /* HomeSectionThirdCell.swift */,
+				EFF101822C37C74B005520F7 /* PaymentVCCollViewCell.swift */,
+				EFF1018C2C37CC77005520F7 /* MoreServicesCollCell.swift */,
+				EFF101932C37D131005520F7 /* CardsVCCardCell.swift */,
+				EFF101A12C37D58A005520F7 /* SegmentedConCell.swift */,
+			);
+			path = CustomCells;
+			sourceTree = "<group>";
+		};
+		EFF1017A2C37BB0D005520F7 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				EFF1017B2C37BB54005520F7 /* UICollectionViewSectionExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		EFF1017D2C37BB94005520F7 /* HomeTypes */ = {
+			isa = PBXGroup;
+			children = (
+				EFF1017E2C37BBD1005520F7 /* HomeViewTypes.swift */,
+				EFF101842C37C7AD005520F7 /* PaymentsVCTypes.swift */,
+				EFF1018E2C37CCE5005520F7 /* MoreServicesTypes.swift */,
+				EFF101992C37D1DF005520F7 /* AddCardsVCTypes.swift */,
+			);
+			path = HomeTypes;
+			sourceTree = "<group>";
+		};
+		EFF101902C37CFCD005520F7 /* Necessaries */ = {
+			isa = PBXGroup;
+			children = (
+				EFF1017D2C37BB94005520F7 /* HomeTypes */,
+				EFF1017A2C37BB0D005520F7 /* Extensions */,
+				EFF101712C37BA0A005520F7 /* CustomCells */,
+				EFF1016E2C37B911005520F7 /* CustomViews */,
+			);
+			path = Necessaries;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF26E0402C36EACC0038936A /* Zoomrad2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF26E0552C36EACD0038936A /* Build configuration list for PBXNativeTarget "Zoomrad2" */;
+			buildPhases = (
+				EF26E03D2C36EACC0038936A /* Sources */,
+				EF26E03E2C36EACC0038936A /* Frameworks */,
+				EF26E03F2C36EACC0038936A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Zoomrad2;
+			productName = Zoomrad2;
+			productReference = EF26E0412C36EACC0038936A /* Zoomrad2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF26E0392C36EACB0038936A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					EF26E0402C36EACC0038936A = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = EF26E03C2C36EACB0038936A /* Build configuration list for PBXProject "Zoomrad2" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF26E0382C36EACB0038936A;
+			productRefGroup = EF26E0422C36EACC0038936A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF26E0402C36EACC0038936A /* Zoomrad2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF26E03F2C36EACC0038936A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF26E0512C36EACC0038936A /* LaunchScreen.storyboard in Resources */,
+				EF26E04E2C36EACC0038936A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF26E03D2C36EACC0038936A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFF101772C37BA72005520F7 /* HomeSectionSecondCell.swift in Sources */,
+				EF26E0492C36EACC0038936A /* ViewController.swift in Sources */,
+				EF26E0692C36EF420038936A /* HelpVC.swift in Sources */,
+				EF26E0672C36EF290038936A /* TransferMoneyVC.swift in Sources */,
+				EF26E0632C36EE8E0038936A /* HomeVC.swift in Sources */,
+				EFF101A22C37D58A005520F7 /* SegmentedConCell.swift in Sources */,
+				EF26E0452C36EACC0038936A /* AppDelegate.swift in Sources */,
+				EF26E05C2C36EDDF0038936A /* VerifyCodeVC.swift in Sources */,
+				EFF1017F2C37BBD1005520F7 /* HomeViewTypes.swift in Sources */,
+				EFF101812C37BCAF005520F7 /* HomeMyHeaderView.swift in Sources */,
+				EFF101A02C37D558005520F7 /* SegmentedCollectedView.swift in Sources */,
+				EFF101852C37C7AD005520F7 /* PaymentsVCTypes.swift in Sources */,
+				EFF1018D2C37CC77005520F7 /* MoreServicesCollCell.swift in Sources */,
+				EFF1018B2C37CC49005520F7 /* HelpVCButtonView.swift in Sources */,
+				EFF101942C37D131005520F7 /* CardsVCCardCell.swift in Sources */,
+				EFF101732C37BA2F005520F7 /* HomeSectionZeroCell.swift in Sources */,
+				EFF101832C37C74B005520F7 /* PaymentVCCollViewCell.swift in Sources */,
+				EFF1018F2C37CCE5005520F7 /* MoreServicesTypes.swift in Sources */,
+				EF26E06B2C36EF8A0038936A /* MoreServicesVC.swift in Sources */,
+				EF26E05A2C36ED4F0038936A /* SignInVC.swift in Sources */,
+				EFF101982C37D18B005520F7 /* AddCardVC.swift in Sources */,
+				EF26E0652C36EEF40038936A /* PaymentsVC.swift in Sources */,
+				EFF1019C2C37D509005520F7 /* CashbackVC.swift in Sources */,
+				EF26E0612C36EE6F0038936A /* TabBarVC.swift in Sources */,
+				EFF101892C37CC22005520F7 /* TransferVCCardView.swift in Sources */,
+				EFF101752C37BA50005520F7 /* HomeSectionFirstCell.swift in Sources */,
+				EFF101922C37D0D8005520F7 /* MyCardsVC.swift in Sources */,
+				EF26E05E2C36EE0E0038936A /* UserInfoVC.swift in Sources */,
+				EFF1019A2C37D1DF005520F7 /* AddCardsVCTypes.swift in Sources */,
+				EFF101A42C37D5A7005520F7 /* SegmentedConUsedView.swift in Sources */,
+				EFF1019E2C37D52E005520F7 /* CashbackVCView.swift in Sources */,
+				EFF101792C37BA91005520F7 /* HomeSectionThirdCell.swift in Sources */,
+				EFF101872C37CBFB005520F7 /* TransferVCCustomView.swift in Sources */,
+				EFF101962C37D15F005520F7 /* MyCardsVCAddButtonView.swift in Sources */,
+				EFF1017C2C37BB54005520F7 /* UICollectionViewSectionExtension.swift in Sources */,
+				EFF101702C37B936005520F7 /* HomeCardView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EF26E04F2C36EACC0038936A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF26E0502C36EACC0038936A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF26E0532C36EACD0038936A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EF26E0542C36EACD0038936A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF26E0562C36EACD0038936A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GCQ7P7JP2X;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Zoomrad2/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Abdulvokhid.Zoomrad2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF26E0572C36EACD0038936A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GCQ7P7JP2X;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Zoomrad2/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Abdulvokhid.Zoomrad2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF26E03C2C36EACB0038936A /* Build configuration list for PBXProject "Zoomrad2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF26E0532C36EACD0038936A /* Debug */,
+				EF26E0542C36EACD0038936A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF26E0552C36EACD0038936A /* Build configuration list for PBXNativeTarget "Zoomrad2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF26E0562C36EACD0038936A /* Debug */,
+				EF26E0572C36EACD0038936A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF26E0392C36EACB0038936A /* Project object */;
+}
